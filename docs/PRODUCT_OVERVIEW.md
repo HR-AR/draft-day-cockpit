@@ -20,6 +20,7 @@ the intended room. Draft Day Cockpit joins those facts while showing when one of
 - Owner-attended Yahoo selected-tab observation.
 - Exact room, team-count, slot, and turn custody before draft actions are enabled.
 - A two-part **NOW / THEN** recommendation surface.
+- An optional local-model second opinion constrained to candidates already admitted by the engine.
 - Explicit stale, disconnected, unauthorized-room, and halted states.
 - Short-lived MOCK authorization for safe rehearsal.
 
