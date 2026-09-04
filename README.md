@@ -46,6 +46,8 @@ The Node package has no dependencies; `npm test` only invokes Node's built-in te
 private product uses pnpm, but this standalone public fixture deliberately avoids installing a
 package manager or dependency tree.
 
+![Sanitized provider-adapter demo](docs/assets/model-adapter-demo.png)
+
 ## Questions for reviewers
 
 1. Is there a stronger macOS signal than checking `NSRunningApplication.isTerminated`, open AX
