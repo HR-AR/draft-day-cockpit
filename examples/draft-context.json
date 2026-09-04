@@ -1,0 +1,12 @@
+{
+  "teamCount": 10,
+  "slot": 4,
+  "round": 3,
+  "pick": 24,
+  "roster": [{ "name": "Roster Runner", "position": "RB" }],
+  "available": [
+    { "name": "Example Receiver", "position": "WR" },
+    { "name": "Example Runner", "position": "RB" }
+  ],
+  "scoringNote": "Invented half-PPR example"
+}

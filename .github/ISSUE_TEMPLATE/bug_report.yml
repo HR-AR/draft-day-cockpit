@@ -1,0 +1,31 @@
+name: Browser custody bug
+description: Report a sanitized Chrome lifecycle or selected-tab custody defect
+title: "[bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include real account, league, room, tab, session, receipt, cookie, token, header, page-body, profile, or local-path data.
+  - type: textarea
+    id: failure
+    attributes:
+      label: Failure
+      description: What happened, using invented identifiers?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Sanitized reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested fix

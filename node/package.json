@@ -1,0 +1,13 @@
+{
+  "name": "@attended-tab/operator-contract",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test",
+    "recommend:example": "node --experimental-strip-types src/cli.ts < ../examples/draft-context.json"
+  }
+}
